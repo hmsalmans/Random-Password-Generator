@@ -12,3 +12,10 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+let CapLetter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+alert(CapLetter.charAt(Math.floor(Math.random() * 26)))
+
+
+
+!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
