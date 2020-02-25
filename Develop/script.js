@@ -21,8 +21,10 @@ let characters = prompt("Please chose between 8 and 128 characters for your pass
   }
     else {
       alert("Sorry! Criteria is not met.")
+}
 
-  }
+
+
 let CapLetter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 let caps = confirm("Would you like capital letters in your passward?")
 if (caps){
@@ -36,7 +38,7 @@ else {
 let smaLetter = "abcdefghijklmnopqrstuvwxyz"
 let smas = confirm("Would you like small letters in your passward?")
 if (smas){
-   alert (smaLetter.charAt(Math.floor(Math.random() * 26)))
+   var sAML = (smaLetter.charAt(Math.floor(Math.random() * 26)))
 }
 else {
   alert("Ok! Bye then.")
@@ -45,10 +47,22 @@ else {
 
 
 
-let smaLetter = "abcdefghijklmnopqrstuvwxyz"
-let smas = confirm("Would you like small letters in your passward?")
-if (smas){
-   alert (smaLetter.charAt(Math.floor(Math.random() * 26)))
+let speLetter = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+let spac = confirm("Would you like any special characters in your passward?")
+if (spac){
+var sPEL = (speLetter.charAt(Math.floor(Math.random() * 31)))
+}
+else {
+  alert("Ok! Bye then.")
+}
+
+
+
+
+let numbers = "1234567890"
+let numb = confirm("Would you like any numbers in your passward?")
+if (numb){
+var nUMB = (numbers.charAt(Math.floor(Math.random() * 10)))
 }
 else {
   alert("Ok! Bye then.")
@@ -71,5 +85,3 @@ else {
 
 
 
-
-!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
