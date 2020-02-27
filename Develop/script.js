@@ -1,6 +1,6 @@
 
 
-let characters = prompt("Please chose between 8 and 128 characters for your passward")
+let characters = prompt("Please chose between 8 and 128 characters for your password")
   if (characters >= 8 && characters <= 128) {
     alert(characters + " characters chosen.")
   }
@@ -15,7 +15,7 @@ var count = 0;
 
 
 let CapLetter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-let caps = confirm("Would you like capital letters in your passward?")
+let caps = confirm("Would you like capital letters in your password?")
 if (caps) {
   var cAPT = (CapLetter.charAt(Math.floor(Math.random() * 26)))
   suerpStr = suerpStr + CapLetter;
@@ -26,7 +26,7 @@ if (caps) {
 
 
 let smaLetter = "abcdefghijklmnopqrstuvwxyz"
-let smas = confirm("Would you like small letters in your passward?")
+let smas = confirm("Would you like small letters in your password?")
 if (smas){
    var sAML = (smaLetter.charAt(Math.floor(Math.random() * 26)))
 suerpStr = suerpStr + smaLetter; 
@@ -38,7 +38,7 @@ count++
 
 
 let speLetter = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-let spac = confirm("Would you like any special characters in your passward?")
+let spac = confirm("Would you like any special characters in your password?")
 if (spac){
 var sPEL = (speLetter.charAt(Math.floor(Math.random() * 31)))
 suerpStr = suerpStr + speLetter
@@ -48,7 +48,7 @@ count++
 
 
 let numbers = "1234567890"
-let numb = confirm("Would you like any numbers in your passward?")
+let numb = confirm("Would you like any numbers in your password?")
 if (numb){
 var nUMB = (numbers.charAt(Math.floor(Math.random() * 10)))
   suerpStr = suerpStr + numbers
@@ -62,7 +62,7 @@ if (!numb && !caps && !spac && !smas)  {
   exit; // Aplication will alert user and close if user doesn't select any of the characters.
 }
 
-alert("Click on the purple button to receive your password")
+alert("Click on the purple (GENERATE PASSWORD) button to receive your password")
 
 var charLength = characters; 
 
