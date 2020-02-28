@@ -2,7 +2,7 @@
 Created Random Password Generator 
 
 # Requirement:
-A requirement of minimum of 8 and maximum of 128 characters is given to user. If user choses to pick number of characters within the range given, the application produces an alert to the user and shuts down.
+A requirement of minimum of 8 and maximum of 128 characters is given to user. If user doesn't pick number of characters within the range given, the application produces an alert to the user and shuts down.
 
 
 
