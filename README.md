@@ -26,7 +26,7 @@ If the the user choses some characters and range lies within the password criter
 # Deployed application link :
                
                
-* https://hmsalmans.github.io/homework_3/
+* https://hmsalmans.github.io/Random-Password-Generator/
 
 
 
